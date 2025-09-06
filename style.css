@@ -1,0 +1,100 @@
+/*
+Theme Name: WPUI Demo
+Theme URI: http://localhost/wp-ui-demo/
+Text Domain: wpui-demo
+Version: 0.1.0
+Requires at least: 6.5
+Requires PHP: 8.1
+Author: Juri Valkiainen
+Description: Minimal block theme for UI/a11y demo (Hero + Cards patterns).
+*/
+
+.wp-block-navigation a:focus,
+.wp-block-navigation a:focus-visible{
+  outline:3px solid var(--wp--preset--color--primary);
+  outline-offset:2px;
+  border-radius:4px;
+}
+.wp-block-navigation a:focus:not(:focus-visible){ outline:none; }
+
+a:focus-visible,
+button:focus-visible,
+.wp-element-button:focus-visible{
+  outline:3px solid currentColor;
+  outline-offset:3px;
+  border-radius:.25rem;
+}
+
+.screen-reader-text{
+  position:absolute;
+  clip:rect(1px,1px,1px,1px);
+  clip-path:inset(50%);
+  height:1px;width:1px;overflow:hidden;white-space:nowrap;
+}
+.screen-reader-text:focus{
+  clip:auto;clip-path:none;height:auto;width:auto;
+  padding:.5rem 1rem;background:#fff;color:var(--wp--preset--color--text,#111);
+  border-radius:.375rem;outline:3px solid var(--wp--preset--color--primary,#0a84ff);
+  outline-offset:2px;z-index:1000;
+}
+
+:where(ul.cards-grid, .cards-grid > ul){
+  list-style:none;
+  padding-left:0;
+  margin:0;
+  display:grid;
+  gap:var(--wp--preset--spacing--40,1.5rem);
+  grid-template-columns:1fr;
+  align-items:stretch;
+}
+
+@media (min-width:700px){
+  :where(ul.cards-grid, .cards-grid > ul){
+    grid-template-columns:repeat(2,minmax(0,1fr));
+  }
+}
+@media (min-width:1024px){
+  :where(ul.cards-grid, .cards-grid > ul){
+    grid-template-columns:repeat(3,minmax(0,1fr));
+  }
+}
+
+:where(ul.cards-grid, .cards-grid > ul) > li{
+  margin:0;
+  display:flex;
+}
+:where(ul.cards-grid, .cards-grid > ul) > li > .wp-block-group{
+  display:flex;
+  flex-direction:column;
+  height:100%;
+}
+:where(ul.cards-grid, .cards-grid > ul) .wp-block-buttons{ margin-top:auto; }
+
+:where(ul.cards-grid, .cards-grid > ul) figure{ margin:0; }
+:where(ul.cards-grid, .cards-grid > ul) img{ width:100%; height:auto; display:block; }
+
+@supports (content-visibility:auto){
+  :where(ul.cards-grid, .cards-grid > ul){
+    content-visibility:auto; contain-intrinsic-size:1px 560px;
+  }
+  :where(ul.cards-grid, .cards-grid > ul) > li{
+    content-visibility:auto; contain-intrinsic-size:1px 480px;
+  }
+}
+
+@media (hover:hover){
+  .wp-block-navigation a:hover,
+  a:hover{ text-decoration:underline; text-underline-offset:.2em; }
+
+  .wp-element-button:hover,
+  .wp-block-button__link:hover{ box-shadow:0 0 0 3px currentColor inset; }
+}
+
+@media (prefers-reduced-motion:reduce){
+  *{
+    animation-duration:.01ms !important;
+    animation-iteration-count:1 !important;
+    transition-duration:.01ms !important;
+    scroll-behavior:auto !important;
+  }
+}
