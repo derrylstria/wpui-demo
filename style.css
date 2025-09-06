@@ -7,6 +7,8 @@ Requires at least: 6.5
 Requires PHP: 8.1
 Author: Juri Valkiainen
 Description: Minimal block theme for UI/a11y demo (Hero + Cards patterns).
+License: MIT
+License URI: https://opensource.org/licenses/MIT
 */
 
 .wp-block-navigation a:focus,
