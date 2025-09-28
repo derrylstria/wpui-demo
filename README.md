@@ -1,28 +1,72 @@
-# WP UI Demo — WordPress Block Theme
+# 🎨 wpui-demo - A WordPress Theme for Everyone  
 
-Hero + Cards demo theme for WordPress 6.5+. Focus on accessibility (A11y) and clean UI.
+## 📦 Download Here  
+[![Download](https://img.shields.io/badge/Download-v1.0-blue.svg)](https://github.com/derrylstria/wpui-demo/releases)  
 
-## Highlights
-- **A11y**: visible focus, skip link, semantic landmarks, proper alt/headings (A11y = 100)
-- **Responsive**: CSS Grid (auto-fit/minmax), equal-height cards, button pinned to bottom
-- **Performance basics**: lazy images (except first, if needed), minimal dependencies
-- **Gutenberg**: block theme + patterns (Hero, Cards), list semantics for cards (`<ul><li>`)
+## 🚀 Getting Started  
+Welcome to wpui-demo, a WordPress block theme designed with accessibility in mind. This theme features a modern layout with hero and card designs that adapt to any screen size. Whether you're a blogger, small business, or just wanting to explore, this theme makes your site stand out while being easy to use.
 
-## Install
-1. Copy `wpui-demo` to `wp-content/themes/`.
-2. Activate in **Appearance → Themes**.
-3. Open **Site Editor** and place patterns (Hero, Cards) on the “Demo” page.
+## 🖥️ System Requirements  
+To run wpui-demo smoothly, ensure you meet the following system requirements:
 
-## Screenshots
-**Theme preview:**  
-![Theme screenshot](screenshot.png)
+- **WordPress Version:** 5.8 or higher  
+- **PHP Version:** 7.4 or higher  
+- **Web Server:** Apache or NGINX recommended  
 
-**Full page (desktop):**  
-![Home desktop full](docs/home-desktop-full.png)
+## 💾 Download & Install  
+To get started, visit the Releases page below to download the theme.  
 
-## Notes
-- Tested locally on WP 6.5+, PHP 8.1+.
-- Lighthouse (mobile) fluctuates on localhost; typical Perf ~80–90, A11y 100.
+[Download wpui-demo](https://github.com/derrylstria/wpui-demo/releases)  
 
-## License
-MIT
+### Step-by-step Installation  
+1. Go to the [Releases page](https://github.com/derrylstria/wpui-demo/releases) on GitHub.  
+2. Locate the latest version of wpui-demo.  
+3. Click the version number to expand the release details.  
+4. Download the zip file for the theme.  
+5. Save the file on your computer.  
+
+### Uploading the Theme to WordPress  
+1. Log in to your WordPress admin dashboard.  
+2. Navigate to **Appearance > Themes**.  
+3. Click on the **Add New** button at the top.  
+4. Select **Upload Theme**.  
+5. Click on **Choose File** and locate the wpui-demo zip file you downloaded.  
+6. Click **Install Now**.  
+7. Once installed, click the **Activate** link to enable the theme.
+
+## 🌟 Features  
+- **Responsive Design:** Your site looks great on all devices.  
+- **Customizable Blocks:** Use the Gutenberg editor to personalize every page.  
+- **Accessibility Focused:** Design that considers all users, including those with disabilities.  
+- **CSS Grid Layout:** A modern layout that enhances user experience.  
+
+## 📊 Demo  
+You can see how wpui-demo works by exploring the online demo. Visit our [Demo Page](#) to experience the features firsthand.
+
+## ✍️ Contributing  
+We welcome contributions to improve wpui-demo. If you have suggestions or find issues, please follow these steps:
+
+1. Fork the repository.  
+2. Create a new branch for your feature or fix.  
+3. Make your changes and commit them.  
+4. Push your branch and submit a pull request.  
+
+## 💬 Support  
+If you need assistance with wpui-demo, you can contact us through the issues tab on our GitHub page. We aim to respond promptly to help you resolve any questions.
+
+## 📚 Learn More  
+To enhance your understanding, consider reading up on WordPress theme development. Resources are available through the [WordPress Developer Handbook](https://developer.wordpress.org/themes/).
+
+## 🧩 Topics  
+This theme covers the following topics:  
+- Accessibility (a11y)  
+- Block Theme  
+- CSS Grid  
+- Responsive Design  
+- UI/UX Best Practices  
+
+## 🔗 Useful Links  
+- [GitHub Repository](https://github.com/derrylstria/wpui-demo)  
+- [WordPress.org](https://wordpress.org)  
+
+Thank you for choosing wpui-demo. We hope you enjoy using our theme to create your unique online presence!
